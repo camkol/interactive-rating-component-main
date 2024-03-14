@@ -1,0 +1,51 @@
+html {
+  background-color: #212832;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+body #plate {
+  background-color: #273039;
+  height: 300px;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+}
+
+.rating-icon {
+  background-color: #273039;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #d3d3d3;
+  border-radius: 50%;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.rating-icon:hover {
+  background-color: #12c958;
+}
+
+.rating-selected {
+  background-color: #12c958;
+}
+
+.submit {
+  background-color: #fb7413;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 230px;
+}
+
+#thankYou {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
