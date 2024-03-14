@@ -1,12 +1,17 @@
-$color_1: #d3d3d3;
-$font-family_1: Arial, Helvetica, sans-serif;
-$background-color_1: #212832;
+$color_1: hsl(0, 0%, 100%);
+$color_2: hsl(216, 12%, 8%);
+$color_3: hsl(213, 19%, 18%);
+$color_4: hsl(25, 97%, 53%);
+$color_5: hsl(217, 12%, 63%);
+$color_6: hsl(216, 12%, 54%);
+$font-family_1: "Overpass", sans-serif;
+$background-color_3: #212832;
 $background-color_2: #273039;
 $background-color_3: #12c958;
 $background-color_4: #fb7413;
 
 html {
-  background-color: $background-color_1;
+  background-color: $background-color_3;
   justify-content: center;
   align-items: center;
   display: flex;
