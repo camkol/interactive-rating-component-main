@@ -14,3 +14,4 @@
 - installed the javascript from a formula found online and then altered it to fit the required purpose
 - input font and colors
 - completed basic and 1440px view
+- responsive finished

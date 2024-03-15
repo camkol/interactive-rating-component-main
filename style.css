@@ -90,4 +90,18 @@ body #thankYou #select {
 
 #thankYou {
   display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body #plate {
+    margin: 100px auto;
+    width: 80%;
+  }
+  body #plate #start #star {
+    margin: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

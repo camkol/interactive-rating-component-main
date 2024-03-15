@@ -103,3 +103,20 @@ body {
 #thankYou {
   display: none;
 }
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+    #plate {
+      margin: 100px auto;
+
+      width: 80%;
+
+      #start {
+        #star {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
