@@ -4,16 +4,14 @@ const select = document.querySelector("#select");
 const icons = document.querySelectorAll(".rating-icon");
 const submit = document.querySelector(".submit");
 
-icons.forEach((btn, index) => {
+icons.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     // Remove "rating-selected" class from all icons
-    icons.forEach((btn, i) => {
-      if (i <= index) {
-        btn.classList.remove("rating-selected");
-      }
+    icons.forEach((icon) => {
+      icon.classList.remove("rating-selected");
     });
 
-    // Add "rating-selected" class to the clicked icon and those before it
+    // Add "rating-selected" class to the clicked icon
     btn.classList.add("rating-selected");
 
     // Store the selected rating value in the window object
