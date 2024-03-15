@@ -1,49 +1,91 @@
 html {
-  background-color: #12c958;
+  background-color: hsl(216, 12%, 8%);
+  box-sizing: border-box;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+body #plate {
+  margin: 200px auto;
+  background-color: hsl(213, 19%, 18%);
+  padding: 24px;
+  height: 330px;
+  width: 330px;
+  border-radius: 24px;
+}
+body #plate #start {
+  height: 100%;
+}
+body #plate #start #star {
+  height: 40px;
+  width: 40px;
+  background-color: hsl(215, 15%, 24%);
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 100vh;
+  border-radius: 50%;
+  margin-bottom: 44px;
 }
-
-body #plate {
-  background-color: #273039;
-  height: 300px;
-  width: 300px;
+body #plate #start #ratings {
+  margin-top: 24px;
+  bottom: 0;
 }
-
-.container {
+body #plate #start #ratings .container {
   display: flex;
+  justify-content: space-around;
+  margin: 16px 0;
+}
+body #thankYou {
+  text-align: center;
+}
+body #thankYou #thankImage {
+  margin-top: 16px;
+}
+body #thankYou #select {
+  margin: 24px auto;
+  padding: 4px;
+  background-color: hsl(215, 15%, 24%);
+  color: hsl(25, 97%, 53%);
+  width: 190px;
+  border-radius: 16px;
 }
 
 .rating-icon {
-  background-color: #273039;
+  background-color: hsl(215, 15%, 24%);
   height: 40px;
   width: 40px;
   justify-content: center;
   align-items: center;
   display: flex;
-  color: hsl(0, 0%, 100%);
+  color: hsl(216, 12%, 54%);
   border-radius: 50%;
   font-weight: 600;
-  font-family: "Overpass", sans-serif;
   margin-right: 5px;
   cursor: pointer;
 }
 .rating-icon:hover {
-  background-color: #12c958;
+  background-color: hsl(213, 19%, 18%);
 }
 
 .rating-selected {
-  background-color: #12c958;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 
 .submit {
-  background-color: #fb7413;
+  background-color: hsl(25, 97%, 53%);
   padding: 10px;
   border-radius: 50px;
-  margin-top: 10px;
-  width: 230px;
+  margin-top: 20px;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
 }
 
 #thankYou {
