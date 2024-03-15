@@ -32,6 +32,8 @@ Users should be able to:
 ### Screenshot
 
 ![](design/desktop-design.jpg)
+![](design/active-states.jpg)
+![](design/desktop-thank-you-state.jpg)
 
 ### Links
 
@@ -44,12 +46,10 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- [Sass](https://sass-lang.com/) - Preprocessor scripting language
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Mobile-Responsive Design
+- JavaScript - Scripting language
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -94,9 +94,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Cameron Howze](https://camkol.github.io/)
+- Frontend Mentor - [@camkol](https://www.frontendmentor.io/profile/camkol)
+- GitHub- [@camkol](https://github.com/camkol)
+- LinkedIn - [@cameron-howze](https://www.linkedin.com/in/cameron-howze-28a646109/)
+- E-Mail - [cameronhowze4@outlook.com](mailto:cameronhowze4@outlook.com)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
